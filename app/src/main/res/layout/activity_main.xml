@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="790dp"
+        android:layout_marginTop="56dp"
+        android:background="#1577A5"
+        android:scrollbars="vertical"
+        android:textColor="#1577A5" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="#1C9FDD"
+        android:gravity="center"
+        android:text="Game Store"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp" />
+
+</RelativeLayout>
